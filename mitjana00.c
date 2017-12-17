@@ -20,7 +20,9 @@ int main() {
 		printf("Vols continuar (s/n): ");
 		scanf(" %c",&consulta); 
 	}
+	
 	mitjana=suma/numero_repeticions;
 	printf("La mitjana resultant és: %.2f\n",mitjana);	
+	printf("Operació finalitzada amb èxit\n");
 	return 0;
 }
